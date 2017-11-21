@@ -121,7 +121,8 @@ describe('calculator', function () {
     })
 
     it('can divide 21/7 and get 3', function () {
-      calculator.numberClick(21)
+      calculator.numberClick(2)
+      calculator.numberClick(1)
       calculator.operatorClick('/')
       calculator.numberClick(7)
       calculator.operatorClick('=')
